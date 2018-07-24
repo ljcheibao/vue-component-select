@@ -8,6 +8,11 @@ typescript+vue开发的下拉框选择组件，使用模拟的增强下拉选择
 
 ![image](https://github.com/ljcheibao/vue-component-select/blob/master/images/demo.png)
 
+- 安装组件包
+  ```
+    npm install vue-component-select --save-dev
+  ```
+
 - js代码
 
   ```js
