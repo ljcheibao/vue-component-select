@@ -10,14 +10,14 @@ typescript+vue开发的下拉框选择组件，使用模拟的增强下拉选择
 
 - 安装组件包
   ```
-    npm install vue-component-select --save-dev
+    npm install vuets-component-select --save-dev
   ```
 
 - js代码
 
   ```js
   import Vue from 'vue';
-  import { VueSelect, VueOption } from "vue-component-select";
+  import { VueSelect, VueOption } from "vuets-component-select";
 
   new Vue({
     el: '#app',
