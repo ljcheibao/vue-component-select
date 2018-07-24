@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <button @click="visible=true">点击测试</button>
+    <vue-select v-model="visible" :option="option" @on-change="confirmHandle">
+      <vue-option v-for="item in data" 
+        :value="item.value" 
+        :selected="item.value == defaultValue">
+        {{item.text}}
+      </vue-option>
+    </vue-select>
+  </div>
+  <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
+  <script src="./dist/index.js"></script>
+</body>
+
+</html>

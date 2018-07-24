@@ -1,0 +1,27 @@
+<div class="select-wrapper" v-show="visible">
+  <div class="olay ios-select-widget-box one-level-box">
+    <div :class="'layer' + (visible ? ' open' : '')">
+      <header style="height: 44px; line-height: 44px" class="iosselect-header">
+        <a @click="closeHandle" style="height: 44px; line-height: 44px" href="javascript:void(0)" class="close">{{cancelText}}</a>
+        <a @click="confirmHandle" style="height: 44px; line-height: 44px" href="javascript:void(0)" class="sure">{{confirmText}}</a>
+        <h2 id="iosSelectTitle">{{title}}</h2>
+      </header>
+      <section class="iosselect-box">
+        <div class="one-level-contain" style="height: 280px;">
+          <ul class="select-one-level">
+            <li></li>
+            <functional-options
+              v-if="true"
+              :options="selectOptions"
+              :slotOptions="slotOptions">
+            </functional-options>
+            <!-- <li style="cursor: pointer;" v-for="item in data" :class="'at' + (item.value == option.selectedValue ? ' hover':'')" @click="selectHandle(item.value)">
+              {{item.text}}
+            </li> -->
+            <li></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
