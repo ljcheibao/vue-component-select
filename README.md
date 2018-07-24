@@ -12,7 +12,7 @@ typescript+vue开发的下拉框选择组件，使用模拟的增强下拉选择
 
   ```js
   import Vue from 'vue';
-  import { VueSelect, VueOption } from "../dist/index.js";
+  import { VueSelect, VueOption } from "vue-component-select";
 
   new Vue({
     el: '#app',
