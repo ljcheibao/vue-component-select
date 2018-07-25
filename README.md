@@ -2,6 +2,11 @@
 
 typescript+vue开发的下拉框选择组件，使用模拟的增强下拉选择器来代替浏览器原生的选择器，简单易用
 
+[![npm](https://img.shields.io/npm/l/vuets-component-select.svg)](LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/vuets-component-select.svg)](https://www.npmjs.com/package/vuets-component-select)
+[![npm](https://img.shields.io/npm/dt/vuets-component-select.svg)](https://www.npmjs.com/package/vuets-component-select)
+
+
 #### 代码示例
 
 使用v-model来进行数据双向绑定，控制组件的显示与隐藏，详情看以下代码
