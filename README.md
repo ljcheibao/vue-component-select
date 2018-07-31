@@ -11,7 +11,7 @@ typescript+vue开发的下拉框选择组件，使用模拟的增强下拉选择
 
 使用v-model来进行数据双向绑定，控制组件的显示与隐藏，详情看以下代码
 
-![image](https://github.com/ljcheibao/vue-component-select/blob/master/images/demo.png)
+![image](https://raw.githubusercontent.com/ljcheibao/vue-component-select/master/images/demo.png)
 
 - 安装组件包
   ```
