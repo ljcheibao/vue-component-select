@@ -1,6 +1,6 @@
 {
   "name": "vuets-component-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "typescript+vue开发的下拉框选择组件，简单易用",
   "main": "./dist/index.js",
   "scripts": {
